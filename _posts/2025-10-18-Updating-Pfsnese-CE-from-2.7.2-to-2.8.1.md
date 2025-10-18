@@ -8,7 +8,7 @@ At First i did a fresh installation of pfsense CE 2.7.2 on my HP Microserver Gen
 I noticed when i reboot the device i needed a **monitor so he can boot to pfsense**,
 
 <p align="center">
-  <img src="/chemsedine/assets/images/pfsense-reboot-pb.jpeg" alt="pfsense boot problem">
+  <img src="/assets/images/pfsense-reboot-pb.jpeg" alt="pfsense boot problem">
 </p>
 <br>
 
