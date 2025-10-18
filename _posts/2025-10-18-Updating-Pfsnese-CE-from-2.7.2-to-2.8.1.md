@@ -37,3 +37,6 @@ After finally updating the system rom firmware to the latest version, now you wi
 > **issue** i still got to update the Server Platform Services (SPS) from 5.01.03.94.0 to 5.01.05.103.0,
 >  But i didn't find how, i couldn't find the SPS update console?
 <p align="center"><img src="/assets/images/pfsense-SPS.jpeg" alt="Pfsense SPS"></p> 
+
+# NEXT STEP 
+## Updating pfsens CE from 2.7.2 to 2.8.1
