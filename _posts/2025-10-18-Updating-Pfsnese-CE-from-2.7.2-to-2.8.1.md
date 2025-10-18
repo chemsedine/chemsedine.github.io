@@ -26,7 +26,8 @@ After downloading the firmware file .fwpkg, put it in a flash driver and plug th
 
 #### Step 2
 
-> **note :** make sure you have stable power supply or UPS in case the power gone, you don't stop the progress of updating the firmware "very dangerous". 
+> **note :** make sure you have stable power supply or UPS in case the power gone, you don't stop the progress of updating the firmware "very dangerous".
+
 ```bash
 bios -> F9 system utilities -> Embadded Applications -> System ROM -> Select File -> start update
 ```
