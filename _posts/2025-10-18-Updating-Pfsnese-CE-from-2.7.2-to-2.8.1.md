@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Updating Pfsense"
+title: "Updating Pfsense CE 2.7.2 to 2.8.1"
+date: 2025-10-18
 ---
 
-At First i did a fresh installation of pfsense CE 2.7.2 on my HP Microserver Gen 10 plus, 
+At First i did a fresh installation of pfsense CE 2.7.2 on my HP Microserver Gen 10 plus,<br> 
 I noticed when i reboot the device i needed a monitor so he can boot to pfsense,
 
-###Solution
+### Solution
