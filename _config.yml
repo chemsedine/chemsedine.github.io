@@ -2,3 +2,8 @@ title: "Chemsedine’s Tech Blog"
 description: "My personal tech notes, tutorials, and projects"
 author: "Chemsedine Bouakazi"
 theme: minima
+
+# Optional but recommended
+show_excerpts: true
+paginate: 5
+paginate_path: "/page:num"
