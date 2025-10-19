@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Updating Pfsense CE 2.7.2 to 2.8.1"
+title: "Update Pfsense CE 2.7.2 to 2.8.1"
 date: 2025-10-18
 --- 
 
-<details> 
  
- # Booting to PFsense CE with a screen
+ # OLD Problem (Booting PFsense CE with a screen)
  
 At First i did a fresh installation of pfsense CE 2.7.2 on my HP Microserver Gen 10 plus,<br> 
 I noticed when i reboot the device i needed a **monitor so he can boot up to pfsense**,
@@ -41,8 +40,38 @@ After finally updating the system rom firmware to the latest version, now you wi
 > **issue** i still got to update the Server Platform Services (SPS) from 5.01.03.94.0 to 5.01.05.103.0,
 >  But i didn't find how, i couldn't find the SPS update console?
 <p align="center"><img src="/assets/images/pfsense-SPS.jpeg" alt="Pfsense SPS"></p> 
-
-</details>
+<br>
 
 # NEXT STEP 
-## Updating pfsens CE from 2.7.2 to 2.8.1
+## Update pfsense CE from 2.7.2 to 2.8.1
+
+### Step 1
+
+You must follow all Pre-Upgrade Tasks in the officiel website of netgate, <a href="https://docs.netgate.com/pfsense/en/latest/install/upgrade-guide-prepare.html "> Pre-Upgrade Tasks.</a> 
+I'll mention the important ones
+
+1-make sure you device is capable of handaling the latest version of Pfsense 2.8.1,which was not a problem for me since i had a microserver is powerfull enough. 
+
+2- Make a back up 
+```bash
+Diagnostics -> Backup/Restore -> Backup area "all"
+uncheck "Skip RRD data"
+Check "Include extra data"
+Click "download configuration as XML"
+```
+and you're done, keep you backup in a safe place.
+
+3- Remove all installed packages 
+> **note :** don't worry every package has a checkbox to keep configuration even after removing it. That's mean after installing it you will get the same configuration as before.
+
+```bash
+System -> Package Manager -> Installed packages
+```
+remove package each one at a time
+
+### Step 2 
+**Update**
+
+```bash
+system -> update -> branch "Current Stable Version (2.8.1)" -> Confirm
+```
