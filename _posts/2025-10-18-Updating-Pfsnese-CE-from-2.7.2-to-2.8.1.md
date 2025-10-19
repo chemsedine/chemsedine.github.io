@@ -4,7 +4,6 @@ title: "Update Pfsense CE 2.7.2 to 2.8.1"
 date: 2025-10-18
 --- 
 
- 
  # OLD Problem (Booting PFsense CE with a screen)
  
 At First i did a fresh installation of pfsense CE 2.7.2 on my HP Microserver Gen 10 plus,<br> 
