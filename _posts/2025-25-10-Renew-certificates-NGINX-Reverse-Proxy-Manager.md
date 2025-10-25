@@ -18,6 +18,8 @@ You will see all the certificates name/ serial Number/domains and most important
 
 ### Case 1 Application exposed to the internet 
 
+When you install certbot and generate a certificate it will automatically renew certificate.
+
 ```bash
 sudo certbot renew 
 ```
