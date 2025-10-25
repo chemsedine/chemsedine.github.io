@@ -40,7 +40,7 @@ Check open ports -<a href="https://www.yougetsignal.com/tools/open-ports/">here<
 Check if DNS Record is changed using the ping command 
 ```bash
 ping domainename.com
-"ping domainename.com (your public ip) icp"
+"ping domainename.com (your public ip) 56 bytes of data"
 ```
 ### Final step 
 ```bash
