@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Renew Certificate - Nginx Revers proxy Manager"
+title: " Renew Certificate - Nginx Reverse Proxy Manager - Certbot"
 date: 2025-10-25
 --- 
 
