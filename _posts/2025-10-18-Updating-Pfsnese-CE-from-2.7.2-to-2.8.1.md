@@ -74,3 +74,8 @@ remove package each one at a time
 ```bash
 system -> update -> branch "Current Stable Version (2.8.1)" -> Confirm
 ```
+# Conclusion
+
+After multiples tries, i coudln't update make the update happend.
+i searched a lot in pfsense community but nothing, the last result is a problem with HP firmware 
+The last solution i came up with is to install pfsense on VM and do the upgrade
