@@ -1,1 +1,5 @@
-
+---
+layout: post
+title: "Install nginx as a reverse proxy"
+date: 2025-06-20
+--- 
